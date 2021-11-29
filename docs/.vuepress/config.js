@@ -2,6 +2,7 @@ module.exports = {
   base: "/docs/",
   title: "前端杨小兽",
   description: "自定义",
+  theme: "reco",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
@@ -48,6 +49,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    type: "blog",
     //导航栏的logo
     logo: "/assets/img/1.webp",
 
@@ -69,5 +71,6 @@ module.exports = {
     // displayAllHeaders: true,
     //最后更改时间
     lastUpdated: "Last Updated",
+    codeTheme: "tomorrow",
   },
 };
