@@ -1,11 +1,10 @@
 ---
-home: true
 # heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+
+navbar: false
+# 自动生成sideBar
 sidebar: auto
-actionLink: /guide/
+title: about页面
 features:
   - title: 简洁至上
     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -16,4 +15,12 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# Hello VuePress
+# 这是 about
+
+> title 的
+
+## about
+
+### about
+
+#### about
