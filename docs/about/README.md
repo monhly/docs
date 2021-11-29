@@ -3,7 +3,7 @@
 
 navbar: false
 # 自动生成sideBar
-sidebar: auto
+
 title: about页面
 features:
   - title: 简洁至上

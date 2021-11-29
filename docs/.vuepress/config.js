@@ -34,6 +34,7 @@ module.exports = {
   ],
   plugins: [
     ["@vuepress/back-to-top"],
+    ["vuepress-plugin-auto-sidebar", {}],
     [
       {
         "@vuepress/pwa": {
@@ -65,7 +66,6 @@ module.exports = {
       { text: "About", link: "/about/" },
     ],
     // sidebar: "auto",
-    sidebar: ["/", "/about/", "/guide/"],
     // displayAllHeaders: true,
     //最后更改时间
     lastUpdated: "Last Updated",
