@@ -58,15 +58,16 @@ module.exports = {
 
     //多个下拉选项,
 
-    nav: [
-      {
-        text: "Languages",
-        ariaLabel: "Language Menu",
-        items: [{ text: "Chinese", link: "/language/chinese/" }],
-      },
-      { text: "Guide", link: "/guide/" },
-      { text: "About", link: "/about/" },
-    ],
+    // nav: [
+    //   {
+    //     text: "Languages",
+    //     ariaLabel: "Language Menu",
+    //     items: [{ text: "Chinese", link: "/language/chinese/" }],
+    //   },
+    //   { text: "Guide", link: "/guide/" },
+    //   { text: "About", link: "/about/" },
+    // ],
+    nav: [{ text: "TimeLine", link: "/timeline/", icon: "reco-date" }],
     // sidebar: "auto",
     // displayAllHeaders: true,
     //最后更改时间
