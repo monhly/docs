@@ -47,9 +47,22 @@ module.exports = {
         },
       },
     ],
+
+    [
+      {
+        "vuepress-plugin-sponsor": {
+          theme: "drinks",
+          alipay: "/assets/img/1.webp",
+          wechat: "/assets/img/1.webp",
+          qq: "/assets/img/1.webp",
+          duration: 2000,
+        },
+      },
+    ],
   ],
   themeConfig: {
     type: "blog",
+    authorAvatar: "/assets/img/1.webp",
     //导航栏的logo
     logo: "/assets/img/1.webp",
 
@@ -72,6 +85,6 @@ module.exports = {
     // displayAllHeaders: true,
     //最后更改时间
     lastUpdated: "Last Updated",
-    codeTheme: "tomorrow",
+    codeTheme: "okaidia",
   },
 };

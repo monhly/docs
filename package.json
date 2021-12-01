@@ -16,6 +16,8 @@
     "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
+    "vuepress-plugin-sponsor": "^1.0.0",
     "vuepress-theme-reco": "^1.6.6"
   }
 }
