@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: http://www.akuziti.com/cache/163836870226453.png
+heroImage: /assets/bg/title.jpg
 heroImageStyle:
   {
     maxHeight: "200px",
