@@ -1,7 +1,7 @@
 module.exports = {
   base: "/docs/",
-  title: "前端杨小兽",
-  description: "自定义",
+  // title: "前端杨小兽",
+  // description: "自定义",
   theme: "reco",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -86,5 +86,12 @@ module.exports = {
     //最后更改时间
     lastUpdated: "Last Updated",
     codeTheme: "okaidia",
+    record: '京ICP备2021038286号-1',
+    recordLink: 'https://beian.miit.gov.cn/#/Integrated/index',
+    // cyberSecurityRecord: '公安部备案文案',
+    // cyberSecurityLink: '公安部备案指向链接',
+    // 项目开始时间，只填写年份
+    startYear: '2021',
+   
   },
 };
