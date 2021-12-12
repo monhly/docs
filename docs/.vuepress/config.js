@@ -1,7 +1,7 @@
 module.exports = {
-  base: "/docs/",
-  // title: "前端杨小兽",
-  // description: "自定义",
+  base: "/",
+  title: "前端杨小兽",
+  description: "Discover some interesting front-end knowledge",
   theme: "reco",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
@@ -60,6 +60,11 @@ module.exports = {
       },
     ],
   ],
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
   themeConfig: {
     type: "blog",
     authorAvatar: "/assets/img/1.webp",
@@ -70,7 +75,7 @@ module.exports = {
     smoothScroll: true,
 
     //多个下拉选项,
-
+    subSidebar: "auto", //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     // nav: [
     //   {
     //     text: "Languages",
@@ -80,18 +85,44 @@ module.exports = {
     //   { text: "Guide", link: "/guide/" },
     //   { text: "About", link: "/about/" },
     // ],
-    nav: [{ text: "TimeLine", link: "/timeline/", icon: "reco-date" }],
+    nav: [
+      { text: "TimeLine", link: "/timeline/", icon: "reco-date" },
+      {
+        text: "Languages",
+        ariaLabel: "Language Menu",
+        items: [{ text: "Chinese", link: "/language/chinese/" }],
+      },
+      { text: "Guide", link: "/guide/" },
+      { text: "About", link: "/about/" },
+    ],
     // sidebar: "auto",
     // displayAllHeaders: true,
     //最后更改时间
     lastUpdated: "Last Updated",
     codeTheme: "okaidia",
-    record: '京ICP备2021038286号-1',
-    recordLink: 'https://beian.miit.gov.cn/#/Integrated/index',
+    record: "京ICP备2021038286号-1",
+    recordLink: "https://beian.miit.gov.cn/#/Integrated/index",
     // cyberSecurityRecord: '公安部备案文案',
     // cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
-    startYear: '2021',
-   
+    startYear: "2021",
+    locales: {
+      "/": {
+        recoLocales: {
+          homeBlog: {
+            article: "美文", // 默认 文章
+            tag: "标识", // 默认 标签
+            category: "类别", // 默认 分类
+            friendLink: "友链", // 默认 友情链接
+          },
+          pagation: {
+            prev: "上一页",
+            next: "下一页",
+            go: "前往",
+            jump: "跳转至",
+          },
+        },
+      },
+    },
   },
 };
